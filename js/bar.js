@@ -1,4 +1,4 @@
-fetch('../presets/bar.html')
+fetch('https://raw.githubusercontent.com/mardevour/zine/refs/heads/main/presets/bar.html')
     .then(response => response.text())
     .then(data => {
         document.getElementById('header-container').innerHTML = data;

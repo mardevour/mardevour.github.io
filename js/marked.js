@@ -1,4 +1,4 @@
-fetch('../content/portada.md')
+fetch('https://raw.githubusercontent.com/mardevour/zine/refs/heads/main/content/portada.md')
             .then(response => response.text())
             .then(text => {
                 document.getElementById('markdown-content').innerHTML = marked(text);
