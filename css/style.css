@@ -1,0 +1,18 @@
+@import url("colors.css");
+
+body {
+    color: var(--rojo);
+    text-align: center;
+}
+.link:link {
+    color: var(--rojo);
+}
+.link:visited {
+    color: var(--rojo2);
+}
+
+#markdown-content {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    color: var(--rojo);
+}
