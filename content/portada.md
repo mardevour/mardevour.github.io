@@ -1,4 +1,4 @@
-![](/assets/imagenes/portada.png)
+![](/zine/assets/imagenes/portada.png)
 
 ## Hello, world!
 
