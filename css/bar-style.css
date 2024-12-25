@@ -2,10 +2,9 @@
 @import url("colors.css");
 
 body {
-
     background-color: var(--gris2);
     font-family: "Ubuntu Mono";
-    font-size: 23px;
+    font-size: 21px;
     margin: 0px;
 }
 .hb {
@@ -18,15 +17,18 @@ body {
     float: left;
     height: 30px;
     padding: 16px 16px 14px 16px;
-    font-size: 24px !important;
+    font-size: 21px !important;
     color: var(--rojo);
     text-align: center;
     text-decoration: none;
     font-size: 17px;
     transition: 0.3s;
 }
-.hb a > svg {
+.hb svg:not(.hb-a-icon-right) {
+    height: 30px;
     padding: 12px 16px;
+    fill: var(--rojo);
+    transition: 0.3s;
 }
 .hb a:hover:not(:first-child) {
     background-color: var(--rojo);
@@ -34,21 +36,13 @@ body {
 }
 .hb a.right {
     float: right;
-    background-color: var(--rojo);
-    color: var(--gris2);
-}
-.hb a.right:hover {
-    background-color: transparent;
-    border: solid 2px var(--rojo);
-    padding: 14px 14px 6px 14px;
-    color: var(--rojo);
 }
 .hb-a-icon {
     padding: 0px !important;
     min-height: 55px;
 }
-.hb svg {
-    height: 30px;
-    fill: var(--rojo);
-    transition: 0.3s;
+.fa {
+    margin-top: -3px;
+    font-size: 30px;
+    vertical-align: middle;
 }
