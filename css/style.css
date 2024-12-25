@@ -30,3 +30,8 @@ a:link {
 a:visited {
     color: var(--rojo2);
 }
+
+/* MEDIA */
+.yt-embed {
+    margin-top: 20px;
+}
