@@ -18,11 +18,15 @@ main {
 .link:visited {
     color: var(--rojo2);
 }
-
 .md-contenido {
-    font-family: Arial, sans-serif;
     color: var(--rojo);
 }
 .md-contenido img {
     max-width: 70vw;
+}
+a:link {
+    color: var(--rojo);
+}
+a:visited {
+    color: var(--rojo2);
 }
