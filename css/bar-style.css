@@ -2,12 +2,14 @@
 @import url("colors.css");
 
 body {
+
     background-color: var(--gris2);
     font-family: "Ubuntu Mono";
     font-size: 23px;
     margin: 0px;
 }
 .hb {
+    backdrop-filter: blur(2px);
     max-height: 55px;
     overflow: hidden;
     background-color: rgba(68, 68, 68, 0.5);

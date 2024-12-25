@@ -22,14 +22,15 @@
     <link href="css/style.css" rel="stylesheet">
 
     <script src="js/bar.js"></script>
-    <script src="js/marked.js"></script>
+    <script type="module" src="js/md-block.js"></script>       
 </head>
 
 <body>
-    <div id="header-container"></div>
-    <div id="markdown-content"></div>
-    <p>holaa</p>
-    <li style="list-style-type: none;"><a class="link" href="presets/bar.html">Hello, world!</a></li>
+    <div class="topbar" id="header-container"></div>
+    <main>
+        <md-block class="md-contenido" src="content/portada.md"></md-block>
+        <li style="list-style-type: none;"><a class="link" href="presets/bar.html">Hello, world!</a></li>
+    </main>
 </body>
 
 </html>

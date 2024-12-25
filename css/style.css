@@ -4,6 +4,14 @@ body {
     color: var(--rojo);
     text-align: center;
 }
+main {
+    padding: 50px 20px 20px 20px;
+}
+.topbar {
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+}
 .link:link {
     color: var(--rojo);
 }
@@ -11,8 +19,10 @@ body {
     color: var(--rojo2);
 }
 
-#markdown-content {
-    padding: 20px;
+.md-contenido {
     font-family: Arial, sans-serif;
     color: var(--rojo);
+}
+.md-contenido img {
+    max-width: 70vw;
 }
