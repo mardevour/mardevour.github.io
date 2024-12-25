@@ -35,5 +35,6 @@ a:visited {
 .yt-embed {
     margin-top: 20px;
     width: 100%;
+    max-width: 70vw;
     aspect-ratio: 16/9;
 }
