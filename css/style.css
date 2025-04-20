@@ -1,34 +1,82 @@
 @import url("colors.css");
+@import url("font.css");
 
+html {
+    background-color: var(--gris2);
+}
 body {
     color: var(--rojo);
     text-align: center;
+    font-family: "Ubuntu Mono";
+    font-size: 20px;
 }
 main {
-    padding: 50px 20px 20px 20px;
-}
-.topbar {
+    border: solid 2px var(--rojo);
+    border-radius: 10px;
     position: fixed;
-    width: 100%;
-    z-index: 1000;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: left;
+    padding: 0px 0px 20px 0px; 
+    cursor: default;
 }
-.link:link {
+/* WINDOW DECORATIONS */
+.window-decoration {
+    background-color: var(--rojo);
+    color: var(--gris);
+    font-family: "Ubuntu Mono", monospace;
+    font-weight: 700;
+    display: flex;
+    justify-content: space-between;
+    border: solid 2px var(--rojo);
+    border-radius: 8px 8px 0 0;
+    cursor: default;
+}
+.window-decoration-text{
+    padding: 3px 8px;
+    margin: 0;
+}
+.window-decoration > div {
+    display: flex;
+}
+.window-decoration > div > div {
+    font-weight: 400;
+    width: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    transition: all 0.2s ease;
+}
+.window-decoration > div > div:hover {
+    background-color: var(--gris);
     color: var(--rojo);
 }
-.link:visited {
-    color: var(--rojo2);
-}
-.md-contenido {
-    color: var(--rojo);
+/* MARKDOWN */
+.md-contenido-index {
+    display: block;
+    padding-left: 20px;
 }
 .md-contenido img {
     max-width: 70vw;
 }
+/* LINKS */
 a:link {
+    transition: all 0.2s ease;
     color: var(--rojo);
+}
+a:link:hover {
+    background-color: var(--rojo);
+    color: var(--gris2);
 }
 a:visited {
     color: var(--rojo2);
+}
+a:visited:hover {
+    background-color: var(--rojo);
+    color: var(--gris2);
 }
 
 /* MEDIA */

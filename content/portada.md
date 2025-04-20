@@ -1,7 +1,9 @@
-![](/zine/assets/imagenes/portada.png)
+## Portada
+##### [< volver](../index.html)
 
-## Hello, world!
+1. [Portada](https://mardevour.github.io/zine/)
+2. [Blog](../blog/blog.html)
 
-##### .md de prueba noseq
-hola hola hola hola hola hola 
-[holaa](https://github.com/mardevour/zine)
+### Media <i class="nf nf-md-movie_filter_outline" aria-hidden="true"></i>
+
+1. [Damunt de tu només ses flors - Mugre](https://mardevour.github.io/zine/html/content/1.html)
